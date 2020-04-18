@@ -10,9 +10,9 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
+import os, os.path
 import sys
-sys.path.insert(0, os.path.abspath('..\\src\\testdoc'))
+sys.path.insert(0, os.path.abspath(os.path.join('..', 'src', 'testdoc')))
 master_doc = 'index'
 
 # -- Project information -----------------------------------------------------
