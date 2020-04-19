@@ -13,7 +13,7 @@
 import os, os.path
 import sys
 sys.path.insert(0, os.path.abspath(os.path.join('..', 'src', 'testdoc')))
-master_doc = 'index'
+#master_doc = 'index'
 
 # -- Project information -----------------------------------------------------
 
